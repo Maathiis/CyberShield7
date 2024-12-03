@@ -1,0 +1,591 @@
+[
+    {
+  
+      "role": "Father",
+  
+      "name": "Black Hat Hacker",
+  
+      "definition": "malicious hacker",
+  
+      "id": 1,
+  
+      "family": "Hackers"
+  
+    },
+  
+    {
+  
+      "role": "Mother",
+  
+      "name": "White Hat Hacker",
+  
+      "definition": "ethical hacker",
+  
+      "id": 2,
+  
+      "family": "Hackers"
+  
+    },
+  
+    {
+  
+      "role": "Son",
+  
+      "name": "Script Kiddie",
+  
+      "definition": "amateur using pre-existing tools",
+  
+      "id": 3,
+  
+      "family": "Hackers"
+  
+    },
+  
+    {
+  
+      "role": "Daughter",
+  
+      "name": "Hacktivist",
+  
+      "definition": "hacker motivated by social or political causes",
+  
+      "id": 4,
+  
+      "family": "Hackers"
+  
+    },
+  
+    {
+  
+      "role": "Grandfather",
+  
+      "name": "Cyber Spy",
+  
+      "definition": "industrial or government espionage",
+  
+      "id": 5,
+  
+      "family": "Hackers"
+  
+    },
+  
+    {
+  
+      "role": "Grandmother",
+  
+      "name": "Phisher",
+  
+      "definition": "specialist in online scams",
+  
+      "id": 6,
+  
+      "family": "Hackers"
+  
+    },
+  
+    {
+  
+      "role": "Father",
+  
+      "name": "Phishing",
+  
+      "definition": "email-based scam",
+  
+      "id": 7,
+  
+      "family": "Cyber Attacks"
+  
+    },
+  
+    {
+  
+      "role": "Mother",
+  
+      "name": "Ransomware",
+  
+      "definition": "data held hostage for ransom",
+  
+      "id": 8,
+  
+      "family": "Cyber Attacks"
+  
+    },
+  
+    {
+  
+      "role": "Son",
+  
+      "name": "DDoS",
+  
+      "definition": "distributed denial-of-service attack",
+  
+      "id": 9,
+  
+      "family": "Cyber Attacks"
+  
+    },
+  
+    {
+  
+      "role": "Daughter",
+  
+      "name": "Spyware",
+  
+      "definition": "spy software",
+  
+      "id": 10,
+  
+      "family": "Cyber Attacks"
+  
+    },
+  
+    {
+  
+      "role": "Grandfather",
+  
+      "name": "Malware",
+  
+      "definition": "malicious software",
+  
+      "id": 11,
+  
+      "family": "Cyber Attacks"
+  
+    },
+  
+    {
+  
+      "role": "Grandmother",
+  
+      "name": "Zero-Day Attack",
+  
+      "definition": "exploits unknown vulnerabilities",
+  
+      "id": 12,
+  
+      "family": "Cyber Attacks"
+  
+    },
+  
+    {
+  
+      "role": "Father",
+  
+      "name": "Firewall",
+  
+      "definition": "network security system",
+  
+      "id": 13,
+  
+      "family": "Defenses"
+  
+    },
+  
+    {
+  
+      "role": "Mother",
+  
+      "name": "Antivirus",
+  
+      "definition": "protection against malware",
+  
+      "id": 14,
+  
+      "family": "Defenses"
+  
+    },
+  
+    {
+  
+      "role": "Son",
+  
+      "name": "Strong Passwords",
+  
+      "definition": "secure passwords",
+  
+      "id": 15,
+  
+      "family": "Defenses"
+  
+    },
+  
+    {
+  
+      "role": "Daughter",
+  
+      "name": "Two-Factor Authentication",
+  
+      "definition": "enhanced login security",
+  
+      "id": 16,
+  
+      "family": "Defenses"
+  
+    },
+  
+    {
+  
+      "role": "Grandfather",
+  
+      "name": "Data Encryption",
+  
+      "definition": "encoding information",
+  
+      "id": 17,
+  
+      "family": "Defenses"
+  
+    },
+  
+    {
+  
+      "role": "Grandmother",
+  
+      "name": "Regular Backups",
+  
+      "definition": "frequent data saving",
+  
+      "id": 18,
+  
+      "family": "Defenses"
+  
+    },
+  
+    {
+  
+      "role": "Father",
+  
+      "name": "Banking Credentials",
+  
+      "definition": "financial account information",
+  
+      "id": 19,
+  
+      "family": "Sensitive Data"
+  
+    },
+  
+    {
+  
+      "role": "Mother",
+  
+      "name": "Personal Data",
+  
+      "definition": "private information",
+  
+      "id": 20,
+  
+      "family": "Sensitive Data"
+  
+    },
+  
+    {
+  
+      "role": "Son",
+  
+      "name": "Medical Records",
+  
+      "definition": "health information",
+  
+      "id": 21,
+  
+      "family": "Sensitive Data"
+  
+    },
+  
+    {
+  
+      "role": "Daughter",
+  
+      "name": "Professional Information",
+  
+      "definition": "work-related data",
+  
+      "id": 22,
+  
+      "family": "Sensitive Data"
+  
+    },
+  
+    {
+  
+      "role": "Grandfather",
+  
+      "name": "Passwords",
+  
+      "definition": "authentication credentials",
+  
+      "id": 23,
+  
+      "family": "Sensitive Data"
+  
+    },
+  
+    {
+  
+      "role": "Grandmother",
+  
+      "name": "Browsing History",
+  
+      "definition": "record of web activity",
+  
+      "id": 24,
+  
+      "family": "Sensitive Data"
+  
+    },
+  
+    {
+  
+      "role": "Father",
+  
+      "name": "Avoid Clicking Suspicious Links",
+  
+      "definition": "prevent phishing attacks",
+  
+      "id": 25,
+  
+      "family": "Cybersecurity Tips"
+  
+    },
+  
+    {
+  
+      "role": "Mother",
+  
+      "name": "Update Software",
+  
+      "definition": "reduce vulnerabilities",
+  
+      "id": 26,
+  
+      "family": "Cybersecurity Tips"
+  
+    },
+  
+    {
+  
+      "role": "Son",
+  
+      "name": "Use a VPN on Public Networks",
+  
+      "definition": "protect data on shared Wi-Fi",
+  
+      "id": 27,
+  
+      "family": "Cybersecurity Tips"
+  
+    },
+  
+    {
+  
+      "role": "Daughter",
+  
+      "name": "Never Share Passwords",
+  
+      "definition": "maintain account security",
+  
+      "id": 28,
+  
+      "family": "Cybersecurity Tips"
+  
+    },
+  
+    {
+  
+      "role": "Grandfather",
+  
+      "name": "Verify Email Senders",
+  
+      "definition": "identify fake emails",
+  
+      "id": 29,
+  
+      "family": "Cybersecurity Tips"
+  
+    },
+  
+    {
+  
+      "role": "Grandmother",
+  
+      "name": "Enable Two-Factor Authentication",
+  
+      "definition": "add an extra security layer",
+  
+      "id": 30,
+  
+      "family": "Cybersecurity Tips"
+  
+    },
+  
+    {
+  
+      "role": "Father",
+  
+      "name": "VPN",
+  
+      "definition": "virtual private network",
+  
+      "id": 31,
+  
+      "family": "Technological Tools"
+  
+    },
+  
+    {
+  
+      "role": "Mother",
+  
+      "name": "Password Manager",
+  
+      "definition": "tool for managing passwords",
+  
+      "id": 32,
+  
+      "family": "Technological Tools"
+  
+    },
+  
+    {
+  
+      "role": "Son",
+  
+      "name": "Vulnerability Scanner",
+  
+      "definition": "identifies system weaknesses",
+  
+      "id": 33,
+  
+      "family": "Technological Tools"
+  
+    },
+  
+    {
+  
+      "role": "Daughter",
+  
+      "name": "Secure Network",
+  
+      "definition": "protected network system",
+  
+      "id": 34,
+  
+      "family": "Technological Tools"
+  
+    },
+  
+    {
+  
+      "role": "Grandfather",
+  
+      "name": "Security Audit Tool",
+  
+      "definition": "assesses system security",
+  
+      "id": 35,
+  
+      "family": "Technological Tools"
+  
+    },
+  
+    {
+  
+      "role": "Grandmother",
+  
+      "name": "Real-Time Security Alerts",
+  
+      "definition": "live updates on threats",
+  
+      "id": 36,
+  
+      "family": "Technological Tools"
+  
+    },
+  
+    {
+  
+      "role": "Father",
+  
+      "name": "Identity Theft",
+  
+      "definition": "stealing personal identity",
+  
+      "id": 37,
+  
+      "family": "Real Threats"
+  
+    },
+  
+    {
+  
+      "role": "Mother",
+  
+      "name": "Data Breach",
+  
+      "definition": "exposure of confidential data",
+  
+      "id": 38,
+  
+      "family": "Real Threats"
+  
+    },
+  
+    {
+  
+      "role": "Son",
+  
+      "name": "Bank Fraud",
+  
+      "definition": "unauthorized financial transactions",
+  
+      "id": 39,
+  
+      "family": "Real Threats"
+  
+    },
+  
+    {
+  
+      "role": "Daughter",
+  
+      "name": "Theft of Professional Information",
+  
+      "definition": "stealing workplace data",
+  
+      "id": 40,
+  
+      "family": "Real Threats"
+  
+    },
+  
+    {
+  
+      "role": "Grandfather",
+  
+      "name": "Industrial Espionage",
+  
+      "definition": "corporate spying",
+  
+      "id": 41,
+  
+      "family": "Real Threats"
+  
+    },
+  
+    {
+  
+      "role": "Grandmother",
+  
+      "name": "Cyber Sabotage",
+  
+      "definition": "deliberate system disruption",
+  
+      "id": 42,
+  
+      "family": "Real Threats"
+  
+    }
+  
+  ]
+   
