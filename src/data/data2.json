@@ -1,294 +1,294 @@
 [
     {
         "Family": "Hackers",
-        "Image": "famille1O.svg",
+        "Image": "hackers.svg",
         "Members": [
             {
                 "role": "Father",
                 "name": "Black Hat Hacker",
-                "definition": "malicious hacker",
+                "definition": "A hacker who violates laws or ethical standards with the intent of causing harm, stealing information, or causing damage for personal or financial reasons.",
                 "id": 1
             },
             {
                 "role": "Mother",
                 "name": "White Hat Hacker",
-                "definition": "ethical hacker",
+                "definition": "A hacker who uses his skills to test and secure computer systems, often within a legal framework, to prevent cyberattacks.",
                 "id": 2
             },
             {
                 "role": "Son",
                 "name": "Script Kiddie",
-                "definition": "amateur using pre-existing tools",
+                "definition": "An inexperienced individual who uses tools or scripts created by others to carry out computer attacks, without really understanding how they work.",
                 "id": 3
             },
             {
                 "role": "Daughter",
-                "name": "Hacktivist",
-                "definition": "hacker motivated by social or political causes",
+                "name": "Hacktiviste",
+                "definition": "A hacker who uses his skills to defend political, social or environmental causes by hacking into sites or systems to protest or get a message across.",
                 "id": 4
             },
             {
                 "role": "Grandfather",
-                "name": "Cyber Spy",
-                "definition": "industrial or government espionage",
+                "name": "Cyber Espion",
+                "definition": "An individual or group who engages in digital espionage to collect sensitive information from a company or government, often for strategic or economic advantage.",
                 "id": 5
             },
             {
                 "role": "Grandmother",
                 "name": "Phisher",
-                "definition": "specialist in online scams",
+                "definition": "A hacker who carries out phishing attacks, sending fraudulent emails or creating websites to trick victims into divulging personal or financial information.",
                 "id": 6
             }
         ]
     },
     {
         "Family": "Cyber Attacks",
-        "Image": "famille2O.svg",
+        "Image": "cyber_attacks.svg",
         "Members": [
             {
                 "role": "Father",
                 "name": "Phishing",
-                "definition": "email-based scam",
+                "definition": "A fraud method in which a hacker sends misleading emails or messages to encourage recipients to provide sensitive information, such as passwords or bank card numbers.",
                 "id": 7
             },
             {
                 "role": "Mother",
                 "name": "Ransomware",
-                "definition": "data held hostage for ransom",
+                "definition": "A type of malware that takes a user's or organisation's data hostage, encrypting or locking it, and demands a ransom to unlock it.",
                 "id": 8
             },
             {
                 "role": "Son",
                 "name": "DDoS",
-                "definition": "distributed denial-of-service attack",
+                "definition": "An attack in which a large number of computers are used to saturate a server or network by sending a massive flood of requests, rendering the service or website inaccessible.",
                 "id": 9
             },
             {
                 "role": "Daughter",
                 "name": "Spyware",
-                "definition": "spy software",
+                "definition": "A type of malware that secretly collects information about a user, often without their knowledge, to monitor their online activities.",
                 "id": 10
             },
             {
                 "role": "Grandfather",
                 "name": "Malware",
-                "definition": "malicious software",
+                "definition": "A general term for any software designed to harm a computer system, such as viruses, worms, Trojan horses or ransomware.",
                 "id": 11
             },
             {
                 "role": "Grandmother",
                 "name": "Zero-Day Attack",
-                "definition": "exploits unknown vulnerabilities",
+                "definition": "An attack that exploits a software vulnerability that is not yet known to the manufacturer or users, which prevents protective measures from being put in place.",
                 "id": 12
             }
         ]
     },
     {
         "Family": "Defenses",
-        "Image": "famille3O.svg",
+        "Image": "defenses.svg",
         "Members": [
             {
                 "role": "Father",
                 "name": "Firewall",
-                "definition": "network security system",
+                "definition": "A security device that monitors and controls traffic entering and leaving a computer network to prevent unauthorised access.",
                 "id": 13
             },
             {
                 "role": "Mother",
                 "name": "Antivirus",
-                "definition": "protection against malware",
+                "definition": "Software designed to detect, prevent and remove viruses, malware and other computer threats.",
                 "id": 14
             },
             {
                 "role": "Son",
-                "name": "Strong Passwords",
-                "definition": "secure passwords",
+                "name": "Secure passwords",
+                "definition": "Complex passwords, generally made up of letters, numbers and symbols, which are difficult to guess or hack.",
                 "id": 15
             },
             {
                 "role": "Daughter",
-                "name": "Two-Factor Authentication",
-                "definition": "enhanced login security",
+                "name": "Two-factor authentication",
+                "definition": "A security mechanism that requires two verification elements (usually a password and a code sent to a device) to confirm the user's identity.",
                 "id": 16
             },
             {
                 "role": "Grandfather",
-                "name": "Data Encryption",
-                "definition": "encoding information",
+                "name": "Data encryption",
+                "definition": "A process that transforms data into a format that cannot be read without a decryption key, ensuring confidentiality.",
                 "id": 17
             },
             {
                 "role": "Grandmother",
-                "name": "Regular Backups",
-                "definition": "frequent data saving",
+                "name": "Regular backup",
+                "definition": "The process of creating copies of important data in order to recover them in the event of loss or corruption of the original data.",
                 "id": 18
             }
         ]
     },
     {
         "Family": "Sensitive Data",
-        "Image": "famille4O.svg",
+        "Image": "sensitive_data.svg",
         "Members": [
             {
                 "role": "Father",
-                "name": "Banking Credentials",
-                "definition": "financial account information",
+                "name": "Bank details",
+                "definition": "Sensitive information linked to bank accounts, such as account numbers, passwords and bank card codes.",
                 "id": 19
             },
             {
                 "role": "Mother",
-                "name": "Personal Data",
-                "definition": "private information",
+                "name": "Personal data",
+                "definition": "Information that enables a person to be identified, such as name, address, telephone number or account information.",
                 "id": 20
             },
             {
                 "role": "Son",
-                "name": "Medical Records",
-                "definition": "health information",
+                "name": "Medical records",
+                "definition": "Information relating to an individual's health, such as diagnoses, treatments or medical history.",
                 "id": 21
             },
             {
                 "role": "Daughter",
-                "name": "Professional Information",
-                "definition": "work-related data",
+                "name": "Professional information",
+                "definition": "Data relating to a career or job, such as professional emails, contracts or confidential company information.",
                 "id": 22
             },
             {
                 "role": "Grandfather",
                 "name": "Passwords",
-                "definition": "authentication credentials",
+                "definition": "Secret codes used to secure access to an account or system.",
                 "id": 23
             },
             {
                 "role": "Grandmother",
-                "name": "Browsing History",
-                "definition": "record of web activity",
+                "name": "Browsing history",
+                "definition": "Data recorded by a web browser showing the websites visited by a user.",
                 "id": 24
             }
         ]
     },
     {
-        "Family": "Cybersecurity Tips",
-        "Image": "famille5O.svg",
+        "Family": "Cybersecurity Consulting",
+        "Image": "cybersecurity_consulting.svg",
         "Members": [
             {
                 "role": "Father",
-                "name": "Avoid Clicking Suspicious Links",
-                "definition": "prevent phishing attacks",
+                "name": "Don't click on suspicious links",
+                "definition": "A recommended security measure to avoid becoming a victim of phishing or malware by clicking on links from untrustworthy sources.",
                 "id": 25
             },
             {
                 "role": "Mother",
-                "name": "Update Software",
-                "definition": "reduce vulnerabilities",
+                "name": "Software updates",
+                "definition": "A tip for applying the latest software security updates to close security loopholes and improve performance.",
                 "id": 26
             },
             {
                 "role": "Son",
-                "name": "Use a VPN on Public Networks",
-                "definition": "protect data on shared Wi-Fi",
+                "name": "Use a VPN on public networks",
+                "definition": "We recommend using a virtual private network (VPN) to secure communications and data when connected to a public Wi-Fi network.",
                 "id": 27
             },
             {
                 "role": "Daughter",
-                "name": "Never Share Passwords",
-                "definition": "maintain account security",
+                "name": "Never share your passwords",
+                "definition": "An essential cybersecurity principle to protect your information and avoid the risk of hacking.",
                 "id": 28
             },
             {
                 "role": "Grandfather",
-                "name": "Verify Email Senders",
-                "definition": "identify fake emails",
+                "name": "Check the sender of emails",
+                "definition": "A good security practice to avoid scams and phishing, by ensuring that emails come from reliable sources.",
                 "id": 29
             },
             {
                 "role": "Grandmother",
-                "name": "Enable Two-Factor Authentication",
-                "definition": "add an extra security layer",
+                "name": "Enable two-factor authentication",
+                "definition": "An additional security measure to protect online accounts against intruders.",
                 "id": 30
             }
         ]
     },
     {
         "Family": "Technological Tools",
-        "Image": "famille6O.svg",
+        "Image": "technological_tools.svg",
         "Members": [
             {
                 "role": "Father",
                 "name": "VPN",
-                "definition": "virtual private network",
+                "definition": "A service that encrypts the user's Internet connection and hides his or her IP address, offering enhanced security when browsing online.",
                 "id": 31
             },
             {
                 "role": "Mother",
-                "name": "Password Manager",
-                "definition": "tool for managing passwords",
+                "name": "Password management software",
+                "definition": "A tool that helps generate and store complex passwords, while securing them in an encrypted database.",
                 "id": 32
             },
             {
                 "role": "Son",
-                "name": "Vulnerability Scanner",
-                "definition": "identifies system weaknesses",
+                "name": "Vulnerability scanner",
+                "definition": "Software used to scan a system for security vulnerabilities that could be exploited by attackers.",
                 "id": 33
             },
             {
                 "role": "Daughter",
                 "name": "Secure Network",
-                "definition": "protected network system",
+                "definition": "A computer network protected against external attacks, often through the use of firewalls, VPNs and encryption methods.",
                 "id": 34
             },
             {
                 "role": "Grandfather",
                 "name": "Security Audit Tool",
-                "definition": "assesses system security",
+                "definition": "A software or service used to evaluate the security of a system, network or application by detecting vulnerabilities.",
                 "id": 35
             },
             {
                 "role": "Grandmother",
-                "name": "Real-Time Security Alerts",
-                "definition": "live updates on threats",
+                "name": "Real-time security alerts",
+                "definition": "Notifications sent to a user or administrator to inform them of potential threats or ongoing security incidents.",
                 "id": 36
             }
         ]
     },
     {
         "Family": "Real Threats",
-        "Image": "famille7O.svg",
+        "Image": "real_threats.svg",
         "Members": [
             {
                 "role": "Father",
-                "name": "Identity Theft",
-                "definition": "stealing personal identity",
+                "name": "Identity theft",
+                "definition": "The act of pretending to be another person online to commit fraud or crime.",
                 "id": 37
             },
             {
                 "role": "Mother",
-                "name": "Data Breach",
-                "definition": "exposure of confidential data",
+                "name": "Data leak",
+                "definition": "The unauthorized exposure of sensitive or confidential data to third parties.",
                 "id": 38
             },
             {
                 "role": "Son",
                 "name": "Bank Fraud",
-                "definition": "unauthorized financial transactions",
+                "definition": "Criminal acts aimed at stealing money or financial information from a bank account or financial institution.",
                 "id": 39
             },
             {
                 "role": "Daughter",
-                "name": "Theft of Professional Information",
-                "definition": "stealing workplace data",
+                "name": "Theft of business information",
+                "definition": "The theft of a company's data or trade secrets, often for the purposes of industrial espionage.",
                 "id": 40
             },
             {
                 "role": "Grandfather",
                 "name": "Industrial Espionage",
-                "definition": "corporate spying",
+                "definition": "The illegal activity of secretly collecting sensitive information from a competing company for strategic advantage.",
                 "id": 41
             },
             {
                 "role": "Grandmother",
-                "name": "Cyber Sabotage",
-                "definition": "deliberate system disruption",
+                "name": "Computer sabotage",
+                "definition": "The act of destroying, disrupting or corrupting computer systems with the aim of harming an organization or individual.",
                 "id": 42
             }
         ]
