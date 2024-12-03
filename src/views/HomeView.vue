@@ -11,91 +11,24 @@ onMounted(() => {
 </script>
 
 <template>
-  <main>
-    <h1>CyberShield 7</h1>
-    <div class="families">
-      <div v-for='families in characters' class="family"
-           :style="`background-image: url(/backgrounds/${families.Image})`">
-        <h2 class="family-title">{{ families.Family }}</h2>
-        <ul class="members">
-          <li v-for="members in families.Members" :key="members.id" class="member">
-            <a :href="`definition/${members.id}`" class="member-link">{{ members.name }}</a>
-          </li>
-        </ul>
-      </div>
+  <div class="sm:grid grid-cols-5 gap-3">
+
+    <div class="h-screen sm:h-full flex flex-col items-center bg-cover bg-center bg-no-repeat px-5 sm:px-10"
+         v-for="families in characters"
+         :style="`background-image: url(/backgrounds/${families.Image})`"
+    >
+      <h1 class="text-3xl sm:text-xl font-bold text-center mt-36 sm:mt-10">{{ families.Family }}</h1>
+
+      <ul class="flex flex-col justify-center mt-5">
+        <li v-for="member in families.Members">
+          <a :href="`/definition/${member.id}`"
+             class="text-blue-500 hover:text-blue-600 font-medium underline hover:no-underline transition duration-300 ease-in-out"
+          >{{ member.name }}</a>
+        </li>
+      </ul>
+
     </div>
-  </main>
+  </div>
+
 </template>
 
-<style scoped>
-
-h1{
-  text-align: center;
-}
-
-
-/* Main container */
-.families {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 1rem;
-}
-
-/* Each family section */
-.family {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
-  flex: 1 1 calc(30% - 2rem);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
-  z-index: 1;
-}
-
-.family-bg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.family:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-/* Family title */
-.family-title {
-  font-size: 1.5rem;
-  color: #ffffff;
-  text-align: center;
-  margin-bottom: 1rem;
-  z-index: 1;
-}
-
-/* Member list */
-.members {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.member {
-  margin: 0.5rem 0;
-  font-size: 1rem;
-}
-
-.member-link {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.member-link:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-</style>

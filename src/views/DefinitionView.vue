@@ -34,21 +34,21 @@ onMounted(() => {
     <div class="absolute inset-0 flex flex-col text-white">
       <!-- Ligne supérieure -->
       <div class="flex justify-between p-6">
-        <div class="text-base font-bold">{{ character.id }}</div> <!-- Numéro en haut à gauche -->
+        <div class="text-base font-bold">{{ character.family }}</div> <!-- Numéro en haut à gauche -->
         <div class="text-base font-bold">{{ character.role }}</div> <!-- Rôle en haut à droite -->
       </div>
 
       <!-- Centre -->
       <div class="flex flex-col items-center justify-center flex-grow space-y-2">
-        <div class="text-3xl font-bold">{{ character.name }}</div> <!-- Nom au centre -->
-        <div class="px-6 text-center text-sm leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non arcu a eros facilisis pharetra.
+        <div class="font-bold text-black -mx-12"></div> <!-- Nom au centre -->
+        <div class="px-12 text-center text-black leading-relaxed">
+          {{ character.definition }}
         </div> <!-- Définition au centre -->
       </div>
 
       <!-- Bas -->
-      <div class="flex justify-center pb-6">
-        <div class="text-sm italic">---- {{ character.family }} -----</div> <!-- Famille en bas au centre -->
+      <div class="flex justify-center pb-20">
+        <div class="text-2xl">{{ character.name }}</div> <!-- Famille en bas au centre -->
       </div>
     </div>
   </div>
