@@ -22,14 +22,42 @@ onMounted(() => {
 </script>
 
 <template>
-  <div v-if="character"> <!-- Affiche uniquement si le personnage est trouvé -->
-    <img :src="`/backgrounds/${character.image}`" alt="Image de la famille" />
-    <div>Rôle : {{ character.role }}</div> <!-- Rôle -->
-    <div>Famille : {{ character.family }}</div> <!-- Famille -->
-    <div>Nom : {{ character.name }}</div> <!-- Nom -->
-    <div>Définition : {{ character.definition }}</div> <!-- Définition -->
+  <div v-if="character" class="relative h-screen w-screen">
+    <!-- Image de fond -->
+    <img 
+      :src="`/backgrounds/${character.image}`" 
+      class="absolute inset-0 h-full w-full object-cover" 
+      alt="Image de la famille" 
+    />
+
+    <!-- Contenu textuel positionné -->
+    <div class="absolute inset-0 flex flex-col text-white">
+      <!-- Ligne supérieure -->
+      <div class="flex justify-between p-6">
+        <div class="text-base font-bold">{{ character.id }}</div> <!-- Numéro en haut à gauche -->
+        <div class="text-base font-bold">{{ character.role }}</div> <!-- Rôle en haut à droite -->
+      </div>
+
+      <!-- Centre -->
+      <div class="flex flex-col items-center justify-center flex-grow space-y-2">
+        <div class="text-3xl font-bold">{{ character.name }}</div> <!-- Nom au centre -->
+        <div class="px-6 text-center text-sm leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non arcu a eros facilisis pharetra.
+        </div> <!-- Définition au centre -->
+      </div>
+
+      <!-- Bas -->
+      <div class="flex justify-center pb-6">
+        <div class="text-sm italic">---- {{ character.family }} -----</div> <!-- Famille en bas au centre -->
+      </div>
+    </div>
   </div>
   <div v-else>
     <p>Personnage non trouvé.</p> <!-- Message si aucun personnage n'est trouvé -->
   </div>
 </template>
+
+<style scoped>
+
+
+</style>
