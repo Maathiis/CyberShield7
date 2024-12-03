@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    height: 100vh; /* S'assure que le body prend tout l'écran */
+  }
+
+  #app {        
+    height: 100%; /* S'assure que l'application occupe tout le body */
+  }
+  
