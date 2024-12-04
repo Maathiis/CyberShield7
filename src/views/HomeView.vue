@@ -17,9 +17,9 @@ onMounted(() => {
          v-for="families in characters"
          :style="`background-image: url(/backgrounds/${families.Image})`"
     >
-      <h1 class="text-3xl sm:text-xl font-bold text-center mt-36 sm:mt-10">{{ families.Family }}</h1>
+      <h1 class="text-3xl sm:text-xl font-bold text-center mt-36 sm:mt-10 text-white">{{ families.Family }}</h1>
 
-      <ul class="flex flex-col justify-center mt-5">
+      <ul class="flex flex-col justify-center mt-5 gap-5">
         <li v-for="member in families.Members">
           <a :href="`/definition/${member.id}`"
              class="text-blue-500 hover:text-blue-600 font-medium underline hover:no-underline transition duration-300 ease-in-out"
