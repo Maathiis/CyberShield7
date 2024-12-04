@@ -40,7 +40,7 @@ onMounted(() => {
 
       <!-- Centre -->
       <div class="flex flex-col items-center justify-center flex-grow space-y-2">
-        <div class="font-bold text-black -mx-12"></div> <!-- Nom au centre -->
+        <div class="font-bold text-2xl text-black mx-12">{{ character.name }}</div> <!-- Nom au centre -->
         <div class="px-12 text-center text-black leading-relaxed">
           {{ character.definition }}
         </div> <!-- Définition au centre -->
@@ -51,9 +51,6 @@ onMounted(() => {
         <div class="text-2xl">{{ character.name }}</div> <!-- Famille en bas au centre -->
       </div>
     </div>
-  </div>
-  <div v-else>
-    <p>Personnage non trouvé.</p> <!-- Message si aucun personnage n'est trouvé -->
   </div>
 </template>
 
