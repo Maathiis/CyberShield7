@@ -1,6 +1,9 @@
 body {
     margin: 0;
     height: 100vh; /* S'assure que le body prend tout l'écran */
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   #app {        

@@ -22,33 +22,32 @@ onMounted(() => {
 </script>
 
 <template>
-  <div v-if="character" class="relative h-screen w-screen">
+  <div v-if="character" class="relative h-screen w-screen bg-gray-800">
     <!-- Image de fond -->
     <img 
       :src="`/backgrounds/${character.image}`" 
-      class="absolute inset-0 h-full w-full object-cover" 
+      class="absolute top-0 left-0 w-full h-full object-contain" 
       alt="Image de la famille" 
     />
 
     <!-- Contenu textuel positionné -->
     <div class="absolute inset-0 flex flex-col text-white">
       <!-- Ligne supérieure -->
-      <div class="flex justify-between p-6">
-        <div class="text-base font-bold">{{ character.id }}</div> <!-- Numéro en haut à gauche -->
-        <div class="text-base font-bold">{{ character.role }}</div> <!-- Rôle en haut à droite -->
+      <div class="flex justify-center pt-60">
+        <div class="text-5xl font-koulen">{{ character.role }}</div>
+        <div class="text-sm italic">FAMILY : {{ character.family }}</div>
       </div>
 
       <!-- Centre -->
       <div class="flex flex-col items-center justify-center flex-grow space-y-2">
-        <div class="text-3xl font-bold">{{ character.name }}</div> <!-- Nom au centre -->
-        <div class="px-6 text-center text-sm leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non arcu a eros facilisis pharetra.
+        <div class="mx-20 text-center text-sm leading-relaxed">
+          {{ character.definition }}
         </div> <!-- Définition au centre -->
       </div>
 
       <!-- Bas -->
-      <div class="flex justify-center pb-6">
-        <div class="text-sm italic">---- {{ character.family }} -----</div> <!-- Famille en bas au centre -->
+      <div class="flex pb-6">
+        <div class="text-3xl pl-5 pb-44 ">{{ character.name }}</div> <!-- Famille en bas au centre -->
       </div>
     </div>
   </div>
@@ -58,6 +57,5 @@ onMounted(() => {
 </template>
 
 <style scoped>
-
 
 </style>
